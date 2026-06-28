@@ -71,8 +71,8 @@ st.markdown("""
 
     /* ── Inputs ── */
     .stNumberInput input, .stSelectbox div[data-baseweb="select"] {
-        background-color: rgba(255, 255, 255, 0.05) !important;
-        color: #e0e0f0 !important;
+        background-color: #000000 !important;
+        color: #ffffff !important;
         border: 1px solid rgba(255, 255, 255, 0.10) !important;
         border-radius: 12px !important;
     }
