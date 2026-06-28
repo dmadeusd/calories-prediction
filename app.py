@@ -70,18 +70,21 @@ st.markdown("""
 
 
     /* ── Inputs ── */
-    .stNumberInput input, .stSelectbox div[data-baseweb="select"] {
+    .stNumberInput input, .stSelectbox div[data-baseweb="select"] > div {
         background-color: #000000 !important;
-        color: #ffffff !important;
         border: 1px solid rgba(255, 255, 255, 0.10) !important;
         border-radius: 12px !important;
+    }
+    .stNumberInput input, .stSelectbox div[data-baseweb="select"] * {
+        color: #ffffff !important;
+    }
+    .stSelectbox div[data-baseweb="select"] {
+        background-color: transparent !important;
+        border: none !important;
     }
     .stNumberInput input:focus {
         border-color: rgba(99, 102, 241, 0.5) !important;
         box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.15) !important;
-    }
-    .stSelectbox div[data-baseweb="select"] {
-        border-radius: 12px !important;
     }
     ul[data-baseweb="menu"] {
         background-color: #000000 !important;
