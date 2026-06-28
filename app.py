@@ -83,6 +83,16 @@ st.markdown("""
     .stSelectbox div[data-baseweb="select"] {
         border-radius: 12px !important;
     }
+    ul[data-baseweb="menu"] {
+        background-color: #000000 !important;
+    }
+    li[role="option"] {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+    }
+    li[role="option"]:hover, li[role="option"][aria-selected="true"] {
+        background-color: #1a1a24 !important;
+    }
     label {
         font-size: 0.85rem !important;
         font-weight: 500 !important;
